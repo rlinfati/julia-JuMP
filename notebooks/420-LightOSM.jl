@@ -107,7 +107,7 @@ md"""
 dire = [
     "Plaza Belgica, Concepcion, Chile"
     "Plaza de la Independencia, Concepcion, Chile"
-    "Mall Plaza, Concepcion, Chile"
+    "Mall Mirador BioBio, Concepcion, Chile"
     "Collao 1202, Concepcion, Chile"
 ]
 

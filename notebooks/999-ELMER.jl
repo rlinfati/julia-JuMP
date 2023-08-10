@@ -95,6 +95,7 @@ XLSX.openxlsx("elmer-" * Dates.format(Dates.today(), "yyyy-mm-dd") * ".xlsx", mo
     push!(df_run, "9922-F1", "9931-F1") # Accionario Desarrollado - Emergente
     push!(df_run, "8994-F1", "8992-F1", "8993-F1", "8971-F1") # GESTIONADO
     push!(df_run, "10020-SIMPLE", "10021-SIMPLE", "10063-SIMPLE", "10064-SIMPLE") # CARTERA
+    push!(df_run, "9717-SIMPLE") # DinamicoPlus
 
     df_cols = [Symbol("Rentb1 mes"), :Rentb3m, :RentbY, :Rentb12m]
     push!(df_cols, :FondoFull, :adm, :Run, :TAC, :Fondo)
